@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SUN LIFE</string>
+
+    <!--第一頁-->
+    <string name="ble_discovery">搜尋藍牙設備</string>
+    <string name="ble_main_title">藍牙設備</string>
+
+    <!--第二頁-->
+    <string name="ble_device_feature_open">功能開啟</string>
+    <string name="ble_device_change">更換連接裝置</string>
+    <string name="ble_device_find">設備尋找</string>
+    <string name="ble_device_distance">更改提示距離</string>
+    <string name="ble_device_info">目前設備資訊</string>
+
+    <!--檔名、連接狀態、連接位址-->
+    <string name="ble_mac_address_sp">com.thematic.blindTool_bletool_macaddress_sharedpreferences</string>
+    <string name="ble_mac_address_status">com.thematic.blindTool_bletool_macaddress_status</string>
+    <string name="ble_mac_address_string">com.thematic.blindTool_bletool_macaddress</string>
+
+    <!--警告-->
+    <string name="ble_not_supported">裝置不支援藍牙4.0</string>
+    <string name="open_bluetooth">藍牙已被開啟</string>
+</resources>

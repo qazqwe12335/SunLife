@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/feature_background"
+    android:orientation="horizontal"
+    tools:context=".Features_Activity">
+
+    <Button
+        android:id="@+id/check_and_back"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        android:background="@drawable/feature_check"
+        android:onClick="change_check_status"
+        android:text="確認" />
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:background="@drawable/fea_dist"
+            android:id="@+id/sensor1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="change_check_status"
+             />
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:background="@drawable/fea_sp"
+                android:id="@+id/sensor2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="change_check_status"
+                />
+
+            <Button
+                android:background="@drawable/feature_v"
+                android:id="@+id/sensor3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="change_check_status"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
