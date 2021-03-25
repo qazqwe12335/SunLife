@@ -12,6 +12,6 @@
 
 長按控制頁面中的選項後，手機會搜尋附近裝置的藍芽Mac Address去與資料庫中連接記錄的Mac Address做配對，在配對成功後會傳送更改資訊，等待裝置回傳目前設定內容，確認設定無誤後隨即自動斷開與裝置的藍芽連線。
 
-<img src="app screenshot/SUNLIFEpage" width=200>
-<img src="app screenshot/SUNLIFE" width=200>
-<img src="app screenshot/SUNLIFE2" width=200>
+<img src="app screenshot/SUNLIFEpage.jpg" width=200>
+<img src="app screenshot/SUNLIFE.jpg" width=200>
+<img src="app screenshot/SUNLIFE2.jpg" width=200>
